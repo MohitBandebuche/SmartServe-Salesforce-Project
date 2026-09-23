@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Salesforce CLI
+.sf/
+.sfdx/
