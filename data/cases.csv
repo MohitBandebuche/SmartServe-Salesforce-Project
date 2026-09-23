@@ -1,0 +1,5 @@
+Subject,Category,Priority,Status,ContactEmail
+Payment Failed,Payment,High,New,rahul@example.com
+Unable to Login,Account,Medium,In Progress,priya@example.com
+Payment Deducted but Order Failed,Payment,Critical,New,rahul@example.com
+Product Not Delivered,Delivery,High,Resolved,priya@example.com

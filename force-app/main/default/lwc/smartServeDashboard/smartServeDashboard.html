@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="SmartServe Support Summary" icon-name="standard:case">
+        <div class="slds-p-around_medium">
+            <div class="slds-grid slds-wrap slds-gutters">
+                <template for:each={cards} for:item="card">
+                    <div key={card.label} class="slds-col slds-size_1-of-1 slds-medium-size_1-of-4 slds-m-bottom_small">
+                        <article class="slds-card slds-p-around_medium">
+                            <div class="slds-text-title">{card.label}</div>
+                            <div class="slds-text-heading_large">{card.value}</div>
+                        </article>
+                    </div>
+                </template>
+            </div>
+            <p class="slds-text-body_small slds-m-top_small">
+                Counts are loaded from the current user's visible Case records.
+            </p>
+        </div>
+    </lightning-card>
+</template>

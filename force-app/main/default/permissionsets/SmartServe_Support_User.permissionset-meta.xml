@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>SmartServe Support User</label>
+    <description>Permissions for SmartServe support users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <objectPermissions>
+        <object>Account</object>
+        <allowRead>true</allowRead>
+        <allowCreate>false</allowCreate>
+        <allowEdit>false</allowEdit>
+        <allowDelete>false</allowDelete>
+        <viewAllRecords>false</viewAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Contact</object>
+        <allowRead>true</allowRead>
+        <allowCreate>true</allowCreate>
+        <allowEdit>true</allowEdit>
+        <allowDelete>false</allowDelete>
+        <viewAllRecords>false</viewAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Case</object>
+        <allowRead>true</allowRead>
+        <allowCreate>true</allowCreate>
+        <allowEdit>true</allowEdit>
+        <allowDelete>false</allowDelete>
+        <viewAllRecords>false</viewAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Customer_Feedback__c</object>
+        <allowRead>true</allowRead>
+        <allowCreate>true</allowCreate>
+        <allowEdit>true</allowEdit>
+        <allowDelete>false</allowDelete>
+        <viewAllRecords>false</viewAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
+    </objectPermissions>
+</PermissionSet>
